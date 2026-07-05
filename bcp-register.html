@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>التَّسجيل في شَهادَة BCP ـ بُنْيَان</title>
+  <meta name="description" content="سجّل اهتمامك بالدفعة الأولى من شهادة الممارس البُنْيَانيّ المعتمد BCP. مجاناً للخمسين الأوائل.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/inner.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-mark">۞</span><span class="logo-text">بُنْيَان</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">الرئيسيَّة</a></li>
+      <li><a href="book.html">الكِتاب</a></li>
+      <li><a href="frameworks.html">الأُطُر</a></li>
+      <li><a href="author.html">المُؤَلِّف</a></li>
+      <li><a href="courses.html" class="active">الدَّورات</a></li>
+      <li><a href="blog.html">المُدَوَّنَة</a></li>
+      <li><a href="support.html">الدَّعم</a></li>
+      <li><a href="contact.html" class="nav-cta">تَواصَل</a></li>
+    </ul>
+    <button class="nav-toggle">☰</button>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <div class="page-header-content">
+      <span class="page-eyebrow">الدُّفعَة الأُولى ـ مَجَّاناً</span>
+      <h1>سَجِّل اهتمامك بشَهادَة BCP</h1>
+      <p class="page-lead">شَهادَة المُمارِس البُنْيَانيّ المُعتَمَد ـ أَوَّل شَهادَة مِهَنيَّة عَرَبيَّة في إدارَة المَشاريع بتَقييم ثُلاثيّ (المَعرفَة + المُمارَسَة + القِيَم).</p>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div style="max-width: 700px; margin: 0 auto;">
+      <div class="contact-form">
+        <h3>نَموذج تَسجيل الاهتمام</h3>
+        <p style="color: var(--text-muted); margin-bottom: 2rem; line-height: 1.9;">
+          الدُّفعَة الأُولى من شَهادَة BCP-F ستَكون <strong>مَجَّانيَّة لِأَوَّل 50 مُمارِساً</strong>.
+          املأ النَّموذج الآن لِتَكون من الأَوائل، وستَصلك تَفاصيل التَّسجيل عِند فَتح الدُّفعَة.
+        </p>
+
+        <form id="bcpForm">
+          <div class="form-group">
+            <label for="name">الاسم الكامِل *</label>
+            <input type="text" id="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">البَريد الإلكترونيّ *</label>
+            <input type="email" id="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">رَقم الهاتِف / واتساب</label>
+            <input type="tel" id="phone" placeholder="مَع رَمز الدَّولَة، مَثَلاً: +966...">
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <div class="form-group">
+              <label for="country">الدَّولَة *</label>
+              <input type="text" id="country" required>
+            </div>
+            <div class="form-group">
+              <label for="city">المَدينَة</label>
+              <input type="text" id="city">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="occupation">المُسَمّى الوَظيفيّ</label>
+            <input type="text" id="occupation" placeholder="مَثَلاً: مدير مَشاريع، مُهَندس، إلخ">
+          </div>
+
+          <div class="form-group">
+            <label for="organization">جِهَة العَمَل</label>
+            <input type="text" id="organization">
+          </div>
+
+          <div class="form-group">
+            <label for="years">سَنَوات الخِبرَة في إدارَة المَشاريع</label>
+            <input type="number" id="years" min="0" max="50">
+          </div>
+
+          <div class="form-group">
+            <label for="certs">الشَّهادات المِهَنيَّة الحاليَّة (اختياريّ)</label>
+            <input type="text" id="certs" placeholder="مَثَلاً: PMP, PRINCE2, Agile">
+          </div>
+
+          <div class="form-group">
+            <label for="level">المُستَوى المُفَضَّل</label>
+            <select id="level">
+              <option value="undecided">لم أُحَدِّد بَعد</option>
+              <option value="BCP-F">BCP-F (تَأسيسيّ)</option>
+              <option value="BCP-P">BCP-P (مُمارِس)</option>
+              <option value="BCP-L">BCP-L (قائد)</option>
+              <option value="BCP-E">BCP-E (خَبير)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="why">لماذا تَهتَمّ بشَهادَة BCP؟ (اختياريّ)</label>
+            <textarea id="why" placeholder="اكتُب باختصار..."></textarea>
+          </div>
+
+          <button type="submit" id="submitBtn" class="btn btn-primary" style="width: 100%;">
+            سَجِّل اهتمامي
+          </button>
+
+          <div id="formStatus" style="margin-top: 1rem;"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-pattern"></div>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-brand">
+        <div class="footer-logo"><span class="logo-mark">۞</span><span class="logo-text">بُنْيَان</span></div>
+        <p>الدَّليل الجامِع لإدارَة المَشاريع في المنظور العَرَبيّ الإسلاميّ العالميّ</p>
+        <p class="footer-edition">الإصدار الأَوَّل ـ 1447هـ / 2026م</p>
+      </div>
+      <div class="footer-col">
+        <h4>المَوقع</h4>
+        <ul>
+          <li><a href="index.html">الرَّئيسيَّة</a></li>
+          <li><a href="book.html">الكِتاب</a></li>
+          <li><a href="frameworks.html">الأُطُر السِّتَّة</a></li>
+          <li><a href="author.html">المُؤَلِّف</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>المُجتَمَع</h4>
+        <ul>
+          <li><a href="courses.html">الدَّورات والشَّهادَة</a></li>
+          <li><a href="blog.html">المُدَوَّنَة</a></li>
+          <li><a href="support.html">ادعَم النَّشر</a></li>
+          <li><a href="contact.html">تَواصَل</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>تَواصَل مَعنا</h4>
+        <ul class="footer-contact">
+          <li>📧 ahmedabuabdu90@outlook.com</li>
+          <li>📱 +972 599 815 677</li>
+          <li>📍 غَزَّة ـ فِلَسطين</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 بُنْيَان ـ جَميع الحُقوق مَحفوظَة.</p>
+      <p class="footer-quote">«كَأَنَّهُمْ بُنْيَانٌ مَّرْصُوصٌ»</p>
+    </div>
+  </div>
+</footer>
+
+<script type="module">
+  import { supabase } from './js/supabase.js';
+  
+  const form = document.getElementById('bcpForm');
+  const submitBtn = document.getElementById('submitBtn');
+  const statusDiv = document.getElementById('formStatus');
+  
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'جارٍ التَّسجيل...';
+    statusDiv.innerHTML = '';
+    
+    const yearsVal = document.getElementById('years').value;
+    const data = {
+      name: document.getElementById('name').value.trim(),
+      email: document.getElementById('email').value.trim(),
+      phone: document.getElementById('phone').value.trim() || null,
+      country: document.getElementById('country').value.trim(),
+      city: document.getElementById('city').value.trim() || null,
+      occupation: document.getElementById('occupation').value.trim() || null,
+      organization: document.getElementById('organization').value.trim() || null,
+      years_experience: yearsVal ? parseInt(yearsVal) : null,
+      current_certifications: document.getElementById('certs').value.trim() || null,
+      preferred_level: document.getElementById('level').value,
+      why_interested: document.getElementById('why').value.trim() || null
+    };
+    
+    try {
+      const { error } = await supabase.from('bcp_interest').insert([data]);
+      if (error) throw error;
+      
+      statusDiv.innerHTML = '<div style="padding: 1.2rem; background: #E8F5E9; color: #1B5E20; border-radius: 10px; text-align: center; line-height: 1.9;">✓ تَمَّ تَسجيل اهتمامك بنَجاح!<br>سيَتِمّ التَّواصُل مَعك عِند فَتح الدُّفعَة الأُولى. بارَكَ اللهُ فيك.</div>';
+      form.reset();
+    } catch (err) {
+      console.error(err);
+      statusDiv.innerHTML = '<div style="padding: 1rem; background: #FFEBEE; color: #B71C1C; border-radius: 10px; text-align: center;">⚠ حَدَث خَطأ. الرَّجاء المُحاوَلَة مَرَّةً أُخرى.</div>';
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'سَجِّل اهتمامي';
+    }
+  });
+</script>
+<script src="js/main.js"></script>
+</body>
+</html>

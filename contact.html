@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تَواصَل ـ بُنْيَان</title>
+  <meta name="description" content="تواصل مع المهندس أحمد سهيل أحمد أبو عبدو ـ مؤلف كتاب بُنْيَان.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/inner.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-mark">۞</span><span class="logo-text">بُنْيَان</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">الرئيسيَّة</a></li>
+      <li><a href="book.html">الكِتاب</a></li>
+      <li><a href="frameworks.html">الأُطُر</a></li>
+      <li><a href="author.html">المُؤَلِّف</a></li>
+      <li><a href="courses.html">الدَّورات</a></li>
+      <li><a href="blog.html">المُدَوَّنَة</a></li>
+      <li><a href="support.html">الدَّعم</a></li>
+      <li><a href="contact.html" class="nav-cta active">تَواصَل</a></li>
+    </ul>
+    <button class="nav-toggle">☰</button>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <div class="page-header-content">
+      <span class="page-eyebrow">تَواصَل مَعنا</span>
+      <h1>كُن جُزءاً من البِناء</h1>
+      <p class="page-lead">بابُ التَّعاوُن مَفتوحٌ لِلتَّبَنّي المَعرفيّ، الدَّعم المالِيّ، الشَّراكَة الأَكاديميَّة، أَو طَلَب مُسَوَّدَة الكِتاب لِلمُراجَعَة.</p>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info-card">
+        <h3>بَيانات التَّواصُل</h3>
+        <ul class="contact-info-list">
+          <li>
+            <span class="contact-icon">📧</span>
+            <div>
+              <span class="label">البَريد الإلكترونيّ</span>
+              <span class="value">ahmedabuabdu90@outlook.com</span>
+            </div>
+          </li>
+          <li>
+            <span class="contact-icon">📱</span>
+            <div>
+              <span class="label">الهاتِف / واتساب</span>
+              <span class="value">+972 599 815 677</span>
+            </div>
+          </li>
+          <li>
+            <span class="contact-icon">📍</span>
+            <div>
+              <span class="label">العُنوان</span>
+              <span class="value">غَزَّة ـ فِلَسطين</span>
+            </div>
+          </li>
+          <li>
+            <span class="contact-icon">🕐</span>
+            <div>
+              <span class="label">أَوقات الرَّدّ</span>
+              <span class="value">عادَةً خِلال 48 ساعَة</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <h3>أَرسِل رِسالَة</h3>
+
+        <div class="form-group">
+          <label for="name">الاسم الكامِل *</label>
+          <input type="text" id="name" name="name" required placeholder="مَثَلاً: د. عبدالله المُحَمَّد">
+        </div>
+
+        <div class="form-group">
+          <label for="email">البَريد الإلكترونيّ *</label>
+          <input type="email" id="email" name="email" required placeholder="email@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="institution">المُؤَسَّسَة (اختياريّ)</label>
+          <input type="text" id="institution" name="institution" placeholder="مَثَلاً: جامعَة قَطَر">
+        </div>
+
+        <div class="form-group">
+          <label for="subject">المَوضوع *</label>
+          <select id="subject" name="subject" required>
+            <option value="">اختَر مَوضوعاً</option>
+            <option>طَلَب مُسَوَّدَة الكِتاب لِلمُراجَعَة</option>
+            <option>التَّبَنّي المَعرفيّ والشَّراكَة</option>
+            <option>المُساهَمَة المالِيَّة في النَّشر</option>
+            <option>التَّسجيل في الدُّفعَة الأُولى من شَهادَة BCP</option>
+            <option>طَلَب دَورَة تَدريبيَّة</option>
+            <option>تَقديم أَو تَوصيَة</option>
+            <option>تَوزيع الكِتاب في مُؤَسَّسَتنا</option>
+            <option>سُؤال أَو استِفسار آخَر</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">الرِّسالَة *</label>
+          <textarea id="message" name="message" required placeholder="اكتُب رِسالَتك هُنا..."></textarea>
+        </div>
+
+        <button type="submit" id="submitBtn" class="btn btn-primary" style="width: 100%;">
+          إرسال الرِّسالَة
+        </button>
+
+        <div id="formStatus" style="margin-top: 1rem;"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section section-vision">
+  <div class="container">
+    <div class="vision-content">
+      <div class="vision-ornament">۞</div>
+      <h2 class="vision-title">نِداء صَريح</h2>
+      <blockquote class="vision-quote">
+        إن وَجَدتَ في هذا العَمَل ما يَستَحِقّ الدَّعم، فهذا شَرَفٌ لكَ ولَنا. وإن لم يَكُن في إمكانك، فدَعوَةٌ صادِقَة بالتَّوفيق تَكفي.
+      </blockquote>
+      <div class="vision-divider"><span></span><span>◆</span><span></span></div>
+      <p class="vision-text">المهَندس أَحمد سُهيل أَحمد أَبو عبدو</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-pattern"></div>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-brand">
+        <div class="footer-logo"><span class="logo-mark">۞</span><span class="logo-text">بُنْيَان</span></div>
+        <p>الدَّليل الجامِع لإدارَة المَشاريع في المنظور العَرَبيّ الإسلاميّ العالميّ</p>
+        <p class="footer-edition">الإصدار الأَوَّل ـ 1447هـ / 2026م</p>
+      </div>
+      <div class="footer-col">
+        <h4>المَوقع</h4>
+        <ul>
+          <li><a href="index.html">الرَّئيسيَّة</a></li>
+          <li><a href="book.html">الكِتاب</a></li>
+          <li><a href="frameworks.html">الأُطُر السِّتَّة</a></li>
+          <li><a href="author.html">المُؤَلِّف</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>المُجتَمَع</h4>
+        <ul>
+          <li><a href="courses.html">الدَّورات والشَّهادَة</a></li>
+          <li><a href="blog.html">المُدَوَّنَة</a></li>
+          <li><a href="support.html">ادعَم النَّشر</a></li>
+          <li><a href="contact.html">تَواصَل</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>تَواصَل مَعنا</h4>
+        <ul class="footer-contact">
+          <li>📧 ahmedabuabdu90@outlook.com</li>
+          <li>📱 +972 599 815 677</li>
+          <li>📍 غَزَّة ـ فِلَسطين</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 بُنْيَان ـ جَميع الحُقوق مَحفوظَة.</p>
+      <p class="footer-quote">«كَأَنَّهُمْ بُنْيَانٌ مَّرْصُوصٌ»</p>
+    </div>
+  </div>
+</footer>
+
+<script type="module">
+  import { supabase } from './js/supabase.js';
+  
+  const form = document.getElementById('contactForm');
+  const submitBtn = document.getElementById('submitBtn');
+  const statusDiv = document.getElementById('formStatus');
+  
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'جارٍ الإرسال...';
+    statusDiv.innerHTML = '';
+    
+    const data = {
+      name: document.getElementById('name').value.trim(),
+      email: document.getElementById('email').value.trim(),
+      institution: document.getElementById('institution').value.trim() || null,
+      subject: document.getElementById('subject').value,
+      message: document.getElementById('message').value.trim()
+    };
+    
+    try {
+      const { error } = await supabase.from('contact_messages').insert([data]);
+      if (error) throw error;
+      
+      statusDiv.innerHTML = '<div style="padding: 1rem; background: #E8F5E9; color: #1B5E20; border-radius: 10px; text-align: center;">✓ تَمَّ إرسال رِسالَتك بنَجاح. سيَتِمّ التَّواصُل مَعك قَريباً بإذن الله.</div>';
+      form.reset();
+    } catch (err) {
+      console.error(err);
+      statusDiv.innerHTML = '<div style="padding: 1rem; background: #FFEBEE; color: #B71C1C; border-radius: 10px; text-align: center;">⚠ حَدَث خَطأ. الرَّجاء المُحاوَلَة مَرَّةً أُخرى أَو الاتِّصال مُباشَرَةً على ahmedabuabdu90@outlook.com</div>';
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'إرسال الرِّسالَة';
+    }
+  });
+</script>
+<script src="js/main.js"></script>
+</body>
+</html>
